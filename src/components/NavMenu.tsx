@@ -7,8 +7,10 @@ function NavMenu() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-          My Website
+          Ali Boyacı
+          <span className="nav-title-header">designer / developer</span>
         </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -23,23 +25,43 @@ function NavMenu() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="#"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.show"
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                About
+              <a
+                className="nav-link"
+                href="#"
+                data-toggle="collapse" // Toggle özelliği
+                data-target=".navbar-collapse.show" // Kapatılacak menüyü hedefler
+              >
+                Portfolios
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="#"
+                data-toggle="collapse" // Toggle özelliği
+                data-target=".navbar-collapse.show" // Kapatılacak menüyü hedefler
+              >
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
+              <a
+                className="nav-link"
+                href="#"
+                data-toggle="collapse" // Toggle özelliği
+                data-target=".navbar-collapse.show" // Kapatılacak menüyü hedefler
+              >
+                Contact Me!
               </a>
             </li>
           </ul>

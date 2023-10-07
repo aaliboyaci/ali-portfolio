@@ -1,3 +1,19 @@
 .navbar-nav li.nav-item:hover a.nav-link {
     color: #3369ff;
 }
+
+.navbar-brand {
+    font-family: 'Red Hat Display', sans-serif, helvetica;
+    font-weight: 700;
+    font-size: x-large;
+
+}
+
+.nav-title-header {
+
+    font-size: x-small;
+    color: #c2c2c2;
+    margin-left: 0.5rem;
+    font-weight: 700;
+
+}

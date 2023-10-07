@@ -5,10 +5,10 @@ import { animated, useSpring, config } from "react-spring";
 import Layout from "./pages/Layout";
 
 function App() {
-  const [isIntroDone, setIsIntroDone] = useState(false);
-
   return (
-    <>{!isIntroDone ? <Intro setIsIntroDone={setIsIntroDone} /> : <Layout />}</>
+    <>
+      <Layout />
+    </>
   );
 }
 
