@@ -2,7 +2,31 @@
 
     background: linear-gradient(-45deg, #071182, #050a41, #000000, #050a41);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 8s ease infinite;
+}
+
+/* .image-blur-animation {
+    animation: image_blur 2s linear;
+} */
+
+.main-header-button {
+    border-radius: 5px;
+    background-color: none;
+    border: 1px solid;
+    border-color: white;
+    offset: 2;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 200px;
+    transition: 0.3s;
+
+}
+
+.main-header-button:hover {
+    box-shadow: 0px 0px 25px 2px rgba(255, 255, 255, 0.3),
+        inset 0px 0px 15px 2px rgba(255, 255, 255, 0.3);
+
 }
 
 @keyframes gradient {
@@ -18,3 +42,18 @@
         background-position: 0% 50%;
     }
 }
+
+/* @keyframes image_blur {
+    0% {
+        -webkit-filter: blur(100px);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-filter: blur(50px);
+    }
+
+    100% {
+        -webkit-filter: blur(0px);
+    }
+} */

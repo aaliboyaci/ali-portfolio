@@ -1,0 +1,34 @@
+.arrowAnimation {
+    height: 30px;
+    animation: slideAnim 1.5s ease infinite;
+
+
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@keyframes slideAnim {
+
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+
+    50% {
+        -webkit-transform: translateY(75%);
+        transform: translateY(75%);
+    }
+
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
