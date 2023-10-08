@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import GraphicServices from "./GraphicServices";
 import FrontendServices from "./FrontendServices";
 
 function Services() {
   return (
-    <div className="row m-0" style={{ userSelect: "none" }}>
+    <div
+      className="row mt-0 mb-2"
+      style={{ userSelect: "none" }}
+      id="services-link"
+    >
       <div className="col-2"></div>
       <div className="col-md-8 text-center">
         <h2

@@ -1,6 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./navMenuStyle.css";
+import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
 
 function NavMenu() {
   return (
@@ -27,7 +29,7 @@ function NavMenu() {
             <li className="nav-item active">
               <a
                 className="nav-link"
-                href="#"
+                href="/"
                 data-toggle="collapse"
                 data-target=".navbar-collapse.show"
               >
@@ -37,32 +39,27 @@ function NavMenu() {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="#"
-                data-toggle="collapse" // Toggle özelliği
-                data-target=".navbar-collapse.show" // Kapatılacak menüyü hedefler
+                data-toggle="collapse"
+                data-target=".navbar-collapse.show"
               >
                 Portfolios
               </a>
             </li>
             <li className="nav-item">
-              <a
+              {/* <Link
+                to="services-link"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={300}
                 className="nav-link"
-                href="#"
-                data-toggle="collapse" // Toggle özelliği
-                data-target=".navbar-collapse.show" // Kapatılacak menüyü hedefler
               >
                 Services
-              </a>
+              </Link> */}
+              boş
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="#"
-                data-toggle="collapse" // Toggle özelliği
-                data-target=".navbar-collapse.show" // Kapatılacak menüyü hedefler
-              >
-                Contact Me!
-              </a>
+              <Link to="/#services-link">services</Link>
             </li>
           </ul>
         </div>
