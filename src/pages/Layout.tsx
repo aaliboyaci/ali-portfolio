@@ -29,12 +29,6 @@ const Layout: React.FC = ({}) => {
     <div>
       <NavMenu />
 
-      {/* {isMobile ? ( //mobil içeriği
-        <div className="align-center bg-primary p-1">
-          Mobilde görünecek içerik
-        </div>
-      ) : (
-        //web içeriği */}
       <div
         className="container-fluid py-5 main-header-bg"
         style={{
@@ -59,7 +53,7 @@ const Layout: React.FC = ({}) => {
             <Intro />
             <img
               src={signature}
-              style={{ width: "230px", paddingTop: "10px" }}
+              style={{ width: "170px", paddingTop: "10px" }}
               alt="Signature"
             ></img>
           </div>

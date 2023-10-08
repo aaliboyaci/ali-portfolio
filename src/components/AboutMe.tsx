@@ -20,7 +20,7 @@ function AboutMe() {
           <div className="col-md-4 mb-2">
             I started my <b>graphic design</b> journey in 2017, and step into a
             professional role in 2018. Over the years, I've worked with both
-            local and international clients, mostly worked as a freelancer but
+            local and international clients, mostly worked as a freelancer and
             also gained work experience at a design agency. After that In 2022,
             I pivoted my career towards software development, focusing on
             <b> frontend development</b>.
@@ -38,8 +38,10 @@ function AboutMe() {
             {" "}
             My goal is a future filled with captivating projects and
             achievements where I combine my passion for creativity, design, and
-            software. Let's embark on new adventures together. Thank you, and
-            stay tuned!
+            software.I find a new adventure and learning opportunity every day
+            thanks to my two professions . I look forward to working together on
+            future projects. Let's embark on new adventures together. Thank you,
+            and stay tuned!
           </div>
         </div>
       </div>
