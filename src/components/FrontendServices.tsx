@@ -16,7 +16,7 @@ function FrontendServices() {
         </h4>
       </div>
       <div className="row">
-        <div className="accordion" id="accordionExample">
+        <div className="accordion" id="accordionSecond">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingSeven">
               <button
@@ -34,7 +34,7 @@ function FrontendServices() {
               id="collapseSeven"
               className="accordion-collapse collapse"
               aria-labelledby="headingSeven"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionSecond"
             >
               <div className="accordion-body">
                 Developing complex web applications with rich user interfaces
@@ -61,7 +61,7 @@ function FrontendServices() {
               id="collapseEight"
               className="accordion-collapse collapse"
               aria-labelledby="headingEight"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionSecond"
             >
               <div className="accordion-body">
                 Building static or dynamic websites using HTML, CSS, and
@@ -87,7 +87,7 @@ function FrontendServices() {
               id="collapseNine"
               className="accordion-collapse collapse"
               aria-labelledby="headingNine"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionSecond"
             >
               <div className="accordion-body">
                 Ensuring that websites and applications are optimized for
@@ -114,7 +114,7 @@ function FrontendServices() {
               id="collapseTen"
               className="accordion-collapse collapse"
               aria-labelledby="headingTen"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionSecond"
             >
               <div className="accordion-body">
                 Building SPAs that provide a smooth and uninterrupted user
@@ -141,7 +141,7 @@ function FrontendServices() {
               id="collapseEleven"
               className="accordion-collapse collapse"
               aria-labelledby="headingEleven"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionSecond"
             >
               <div className="accordion-body">
                 Integrating data and functionality from backend services and

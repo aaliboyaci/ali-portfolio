@@ -16,7 +16,7 @@ function GraphicServices() {
         </h4>
       </div>
       <div className="row">
-        <div className="accordion" id="accordionExample">
+        <div className="accordion" id="accordionFirst">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button
@@ -25,7 +25,7 @@ function GraphicServices() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
                 aria-expanded="false"
-                aria-controls="collapseTwo"
+                aria-controls="collapseOne"
               >
                 Branding
               </button>
@@ -34,7 +34,7 @@ function GraphicServices() {
               id="collapseOne"
               className="accordion-collapse collapse"
               aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionFirst"
             >
               <div className="accordion-body">
                 Developing a cohesive visual identity for a business, including
@@ -60,36 +60,11 @@ function GraphicServices() {
               id="collapseTwo"
               className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionFirst"
             >
               <div className="accordion-body">
                 Designing materials for print, such as business cards,
                 brochures, flyers, posters, and packaging.
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item">
-            <h2 className="accordion-header" id="headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Web Design
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body">
-                Crafting visually appealing and user-friendly websites,
-                including the layout, typography, and overall aesthetics.
               </div>
             </div>
           </div>
@@ -111,7 +86,7 @@ function GraphicServices() {
               id="collapseFour"
               className="accordion-collapse collapse"
               aria-labelledby="headingFour"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionFirst"
             >
               <div className="accordion-body">
                 Designing visuals for social media platforms, including posts,
@@ -137,7 +112,7 @@ function GraphicServices() {
               id="collapseFive"
               className="accordion-collapse collapse"
               aria-labelledby="headingFive"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionFirst"
             >
               <div className="accordion-body">
                 Creating visuals for events, including banners, posters,
@@ -163,7 +138,7 @@ function GraphicServices() {
               id="collapseSix"
               className="accordion-collapse collapse"
               aria-labelledby="headingSix"
-              data-bs-parent="#accordionExample"
+              data-bs-parent="#accordionFirst"
             >
               <div className="accordion-body">
                 Designing materials like business cards, letterheads, and
