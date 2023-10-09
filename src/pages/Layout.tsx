@@ -5,6 +5,7 @@ import ArrowAnimation from "../components/ArrowAnimation";
 import AboutMe from "../components/AboutMe";
 import Services from "../components/Services";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Layout: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -46,6 +47,7 @@ const Layout: React.FC = () => {
       <br></br>
       <br></br>
       <br></br>
+      <Footer />
     </div>
   );
 };

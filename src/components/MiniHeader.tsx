@@ -10,7 +10,7 @@ function MiniHeader(props: MiniHeader) {
   return (
     <>
       <div
-        className="container-fluid py-5 main-header-bg"
+        className="container-fluid py-5 main-header-bg m-0"
         style={{
           height: "auto",
           backgroundColor: "black",

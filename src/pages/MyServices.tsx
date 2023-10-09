@@ -3,6 +3,7 @@ import MiniHeader from "../components/MiniHeader";
 import Services from "../components/Services";
 import ArrowAnimation from "../components/ArrowAnimation";
 import KnownTechnologies from "../components/KnownTechnologies";
+import Footer from "../components/Footer";
 
 function MyServices() {
   const MiniHeaderTitle = "Services";
@@ -22,6 +23,7 @@ function MyServices() {
       <br></br>
 
       <br></br>
+      <Footer />
     </div>
   );
 }

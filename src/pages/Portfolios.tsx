@@ -1,6 +1,7 @@
 import React from "react";
 import MiniHeader from "../components/MiniHeader";
 import ArrowAnimation from "../components/ArrowAnimation";
+import Footer from "../components/Footer";
 
 function Portfolios() {
   const MiniHeaderTitle = "Portfolios";
@@ -13,6 +14,7 @@ function Portfolios() {
         MiniHeaderText={MiniHeaderText}
       />
       <ArrowAnimation />
+      <Footer />
     </div>
   );
 }

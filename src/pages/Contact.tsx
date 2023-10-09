@@ -1,6 +1,7 @@
 import React from "react";
 import MiniHeader from "../components/MiniHeader";
 import ArrowAnimation from "../components/ArrowAnimation";
+import Footer from "../components/Footer";
 
 function Contact() {
   const MiniHeaderTitle = "Contact";
@@ -13,6 +14,7 @@ function Contact() {
         MiniHeaderText={MiniHeaderText}
       />
       <ArrowAnimation />
+      <Footer />
     </div>
   );
 }

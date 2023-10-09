@@ -12,7 +12,7 @@ function Header() {
         backgroundColor: "black",
       }}
     >
-      <div className="row">
+      <div className="row px-0">
         <div className="col-2"></div>
 
         <div
