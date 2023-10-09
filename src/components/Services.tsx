@@ -5,7 +5,7 @@ import FrontendServices from "./FrontendServices";
 function Services() {
   return (
     <div
-      className="row mt-0 mb-2"
+      className="row mt-0 mb-2 mr-0 pr-0"
       style={{ userSelect: "none" }}
       id="services-link"
     >
@@ -14,13 +14,14 @@ function Services() {
         className="col-md-8 text-center"
         style={{
           marginTop: "10px",
+          width: "auto",
         }}
       >
         <div className="row text-left">
-          <div className="col-md-6 mb-2">
+          <div className="col-md-6 mb-2 mr-0 pr-0">
             <GraphicServices />
           </div>
-          <div className="col-md-6 mb-2">
+          <div className="col-md-6 mb-2 mr-0 pr-0">
             <FrontendServices />
           </div>
         </div>

@@ -5,7 +5,7 @@ import signature2 from "../images/ali-signature-white.png";
 function Footer() {
   return (
     <div
-      className="row main-header-bg py-3 px-2 text-center "
+      className="row main-header-bg py-3 px-2 text-center m-0 "
       style={{ color: "white" }}
     >
       <div className="col-2"></div>

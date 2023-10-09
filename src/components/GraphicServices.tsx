@@ -3,8 +3,7 @@ import React from "react";
 function GraphicServices() {
   return (
     <>
-      <div className="row text-center">
-        {" "}
+      <div className="row text-center m-0">
         <h4
           style={{
             paddingTop: "10px",
@@ -15,8 +14,8 @@ function GraphicServices() {
           Graphic Design
         </h4>
       </div>
-      <div className="row">
-        <div className="accordion pr-0" id="accordionFirst">
+      <div className="row m-0 p-0">
+        <div className="accordion p-0" id="accordionFirst">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button

@@ -3,7 +3,7 @@ import React from "react";
 function FrontendServices() {
   return (
     <>
-      <div className="row text-center">
+      <div className="row text-center m-0">
         {" "}
         <h4
           style={{
@@ -15,8 +15,8 @@ function FrontendServices() {
           Frontend Development
         </h4>
       </div>
-      <div className="row">
-        <div className="accordion pr-0" id="accordionSecond">
+      <div className="row m-0 p-0">
+        <div className="accordion p-0" id="accordionSecond">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingSeven">
               <button

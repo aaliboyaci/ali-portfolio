@@ -10,7 +10,7 @@ function MyServices() {
   const MiniHeaderText =
     "Here you can find my services for both graphic design and frontend development.";
   return (
-    <div>
+    <div className="container-s-fluid m-0 p-0">
       <MiniHeader
         MiniHeaderTitle={MiniHeaderTitle}
         MiniHeaderText={MiniHeaderText}

@@ -23,15 +23,18 @@ const technologies = [
 const KnownTechnologies: React.FC = () => {
   return (
     <>
-      <div className="row align-items-center">
+      <div className="row align-items-center m-0">
         <div className="col-2"></div>
-        <div className="col-md-8 text-center known-technologies-container align-items-center pr-0 m-0">
+        <div
+          className="col-md-8 text-center known-technologies-container align-items-center pr-0 m-0"
+          style={{ width: "auto" }}
+        >
           <h4 className="my-3 p-0">Technologies and Tools</h4>
           <div className="imgAnimation">
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -41,7 +44,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -51,7 +54,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -61,7 +64,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -71,7 +74,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -81,7 +84,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -91,7 +94,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
@@ -101,7 +104,7 @@ const KnownTechnologies: React.FC = () => {
             <img
               style={{
                 margin: "4px",
-                height: "40px",
+                height: "35px",
                 marginRight: "5px",
                 marginLeft: "5px",
               }}
