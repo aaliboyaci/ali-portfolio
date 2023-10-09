@@ -1,0 +1,13 @@
+.contact-button {
+    border: 1px solid black;
+    border-radius: 8px;
+
+    transition: 400ms;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    filter: invert(100%);
+}
