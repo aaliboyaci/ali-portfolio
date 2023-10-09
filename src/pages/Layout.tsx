@@ -26,12 +26,10 @@ const Layout: React.FC = () => {
 
   return (
     <div>
-      <NavMenu />
       <Header />
       <ArrowAnimation />
       <AboutMe />
       <ArrowAnimation />
-      <Services />
       <br></br>
       <br></br>
       <br></br>

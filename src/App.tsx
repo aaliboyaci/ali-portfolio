@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <NavMenu />
         <Routes>
           <Route path="/" element={<Layout />} />
           <Route path="/portfolios" element={<Portfolios />}>

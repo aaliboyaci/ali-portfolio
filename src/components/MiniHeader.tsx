@@ -9,7 +9,6 @@ function MiniHeader(props: MiniHeader) {
   console.log(props);
   return (
     <>
-      <NavMenu />
       <div
         className="container-fluid py-5 main-header-bg"
         style={{
