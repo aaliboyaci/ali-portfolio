@@ -16,7 +16,7 @@ function GraphicServices() {
         </h4>
       </div>
       <div className="row">
-        <div className="accordion" id="accordionFirst">
+        <div className="accordion pr-0" id="accordionFirst">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button

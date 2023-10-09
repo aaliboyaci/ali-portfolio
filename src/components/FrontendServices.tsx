@@ -16,7 +16,7 @@ function FrontendServices() {
         </h4>
       </div>
       <div className="row">
-        <div className="accordion" id="accordionSecond">
+        <div className="accordion pr-0" id="accordionSecond">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingSeven">
               <button
