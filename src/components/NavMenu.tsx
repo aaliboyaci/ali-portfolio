@@ -1,14 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./navMenuStyle.css";
-import { Link } from "react-router-dom";
-import { useEffect, useRef } from "react";
 
 function NavMenu() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Ali Boyacı
           <span className="nav-title-header">designer / developer</span>
         </a>
@@ -38,6 +36,7 @@ function NavMenu() {
             </li>
             <li className="nav-item">
               <a
+                href="/portfolios"
                 className="nav-link"
                 data-toggle="collapse"
                 data-target=".navbar-collapse.show"
@@ -46,20 +45,24 @@ function NavMenu() {
               </a>
             </li>
             <li className="nav-item">
-              {/* <Link
-                to="services-link"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={300}
+              <a
+                href="/services"
                 className="nav-link"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.show"
               >
                 Services
-              </Link> */}
-              boş
+              </a>
             </li>
             <li className="nav-item">
-              <Link to="/#services-link">services</Link>
+              <a
+                href="/contact"
+                className="nav-link"
+                data-toggle="collapse"
+                data-target=".navbar-collapse.show"
+              >
+                Contact Me
+              </a>
             </li>
           </ul>
         </div>

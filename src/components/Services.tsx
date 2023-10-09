@@ -10,18 +10,12 @@ function Services() {
       id="services-link"
     >
       <div className="col-2"></div>
-      <div className="col-md-8 text-center">
-        <h2
-          style={{
-            borderBottom: "1px solid",
-            borderColor: "black",
-            paddingTop: "10px",
-            marginBottom: "20px",
-            paddingBottom: "20px",
-          }}
-        >
-          Services
-        </h2>
+      <div
+        className="col-md-8 text-center"
+        style={{
+          marginTop: "10px",
+        }}
+      >
         <div className="row text-left">
           <div className="col-md-6 mb-2">
             <GraphicServices />

@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
 import NavMenu from "../components/NavMenu";
-import signature from "../images/ali-signature-white.png";
 import "./Styles/Layout.css";
-import Intro from "./Intro";
 import ArrowAnimation from "../components/ArrowAnimation";
 import AboutMe from "../components/AboutMe";
 import Services from "../components/Services";
 import Header from "../components/Header";
 
-const Layout: React.FC = ({}) => {
+const Layout: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -29,7 +27,6 @@ const Layout: React.FC = ({}) => {
   return (
     <div>
       <NavMenu />
-
       <Header />
       <ArrowAnimation />
       <AboutMe />
